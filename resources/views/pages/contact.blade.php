@@ -55,10 +55,8 @@
                     <form action="/contact" method="POST">
                         @csrf
                         @each('components.contact-form', $form, 'form', 'view.empty')
-                        <div>
-                            <button type="submit"
-                                class=" border-2 border-grey px-8 py-2 rounded-xl font-bold hover:bg-gradient-to-r from-orange-300 to-pink-500 hover:text-white duration-300 hover:border-white">Submit</button>
-                        </div>
+                        <button type="submit"
+                            class=" border-2 border-grey px-8 py-2 rounded-xl font-bold hover:bg-gradient-to-r from-orange-300 to-pink-500 hover:text-white duration-300 hover:border-white">Submit</button>
                     </form>
                 </div>
             </div>

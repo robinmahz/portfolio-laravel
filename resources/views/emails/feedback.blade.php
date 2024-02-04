@@ -1,12 +1,11 @@
 <x-mail::message>
-# Introduction
+    Portfolio contact by
 
-The body of your message.
+    Name: {{ $data['Name'] }}
+    Email: {{ $data['Email'] }}
 
-<x-mail::button :url="''">
-Button Text
-</x-mail::button>
+    {{ $data['Message'] }}
 
-Thanks,<br>
-{{ config('app.name') }}
+    Thanks,
+    {{ config('app.name') }}
 </x-mail::message>

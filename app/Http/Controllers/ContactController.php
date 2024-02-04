@@ -2,13 +2,16 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\Feedback;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
 
 class ContactController extends Controller
 {
     public function contact(Request $request)
     {
-        dd($request->all());
+        Mail::to('xyz@gmail.com')->send(new Feedback($request->all()));
+        return redirect('/');
     }
     /**
      * Display a listing of the resource.
