@@ -52,8 +52,13 @@
                     <form action="" method="POST">
                         @csrf
                         @each('components.contact-form', $form, 'form', 'view.empty')
-                        <button type="submit"
-                            class=" border-2 border-grey px-8 py-2 rounded-xl font-bold hover:bg-gradient-to-r from-orange-300 to-pink-500 hover:text-white duration-300 hover:border-white">Submit</button>
+                        <div x-data="{ open: false }" class="mt-4">
+                            <!-- Trigger Button -->
+                            <button @click="open = true"
+                                class=" border-2 border-grey px-8 py-2 rounded-xl font-bold hover:bg-gradient-to-r from-orange-300 to-pink-500 hover:text-white duration-300 hover:border-white">Submit</button>
+                            <x-FormModel />
+                        </div>
+
                     </form>
                 </div>
             </div>
