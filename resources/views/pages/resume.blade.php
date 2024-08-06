@@ -29,31 +29,31 @@
         [
             'color' => 'FEF2F4',
             'date' => '2024',
-            'title' => 'Sr. Web Developer',
-            'small' => 'xyz ltd.',
+            'title' => 'Laravel backend developer',
+            'small' => 'App Technologies',
         ],
         [
             'color' => 'EDF4F8',
-            'date' => '2023',
-            'title' => 'Jr. Web Developer',
-            'small' => 'xzy ltd',
+            'date' => '',
+            'title' => '',
+            'small' => '',
         ],
     ];
     $award = [
         [
-            'color' => '',
+            'color' => 'EDF4F8',
             'date' => '',
             'title' => '',
             'small' => '',
         ],
         [
-            'color' => '',
+            'color' => 'FEF2F4',
             'date' => '',
             'title' => '',
             'small' => '',
         ],
         [
-            'color' => '',
+            'color' => 'EDF4F8',
             'date' => '',
             'title' => '',
             'small' => '',
@@ -70,7 +70,7 @@
         <div class="grid grid-cols-3 gap-4">
             <div class="grid gap-4">
                 <div class="flex gap-4">
-                    <div class="flex align-middle">
+                    <div class="flex align-middle text-[#fa5252]">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                             stroke="currentColor" class="w-9 h-9">
                             <path stroke-linecap="round" stroke-linejoin="round"
@@ -85,7 +85,7 @@
             </div>
             <div class="grid gap-4">
                 <div class="flex gap-4">
-                    <div class="flex align-middle">
+                    <div class="flex align-middle text-[#fa5252]">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                             stroke="currentColor" class="w-9 h-9">
                             <path stroke-linecap="round" stroke-linejoin="round"
@@ -98,7 +98,7 @@
             </div>
             <div class="grid gap-4">
                 <div class="flex gap-4">
-                    <div class="flex align-middle">
+                    <div class="flex align-middle text-[#fa5252]">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                             stroke="currentColor" class="w-9 h-9">
                             <path stroke-linecap="round" stroke-linejoin="round"
@@ -116,7 +116,7 @@
                 <div class="grid gap-4 pr-8">
                     <div class="grid gap-4">
                         <label class="flex justify-between ">
-                            <div>Web Design</div>
+                            <div>Web Development</div>
                             <div>85%</div>
                         </label>
                         <div class="rounded-2xl overflow-hidden h-1.5 flex ">
@@ -136,7 +136,7 @@
                     </div>
                     <div class="grid gap-4">
                         <label class="flex justify-between ">
-                            <div>Illustrator</div>
+                            <div>Api Development</div>
                             <div>65%</div>
                         </label>
                         <div class="rounded-2xl overflow-hidden h-1.5 flex ">
@@ -165,7 +165,11 @@
                     <div class="resume-knowledge">Social Media</div>
                     <div class="resume-knowledge">Time Management</div>
                     <div class="resume-knowledge">Flexible</div>
-                    <div class="resume-knowledge">Print</div>
+                    <div class="resume-knowledge">Laravel</div>
+                    <div class="resume-knowledge">Tailwind</div>
+                    <div class="resume-knowledge">Html</div>
+                    <div class="resume-knowledge">Css</div>
+                    <div class="resume-knowledge">API</div>
                 </div>
             </div>
         </div>

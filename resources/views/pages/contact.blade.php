@@ -5,21 +5,18 @@
             'color' => 'FEF2F4',
             'title' => 'Phone:',
             'content' => '+977 9861974229',
-            'secondary-content' => '+977 9845986282',
         ],
         [
             'icon' => 'fa-envelope',
             'color' => 'EDF4F8',
             'title' => 'Email:',
             'content' => 'Robinmaharjan25@gmail.com',
-            'secondary-content' => 'Thechomi9@gmail.com',
         ],
         [
             'icon' => 'fa-location-dot',
             'color' => 'FEF2F4',
             'title' => 'Address:',
-            'content' => 'Thecho, Lalitpur,',
-            'secondary-content' => 'Nepal',
+            'content' => 'Thecho, Lalitpur, Nepal',
         ],
     ];
     $form = [
@@ -52,7 +49,7 @@
                         <div class="text-2xl">I'm Always Open To Discussing Products</div>
                         <div class="text-2xl font-bold">Design Work Or Partnership</div>
                     </div>
-                    <form action="/contact" method="POST">
+                    <form action="" method="POST">
                         @csrf
                         @each('components.contact-form', $form, 'form', 'view.empty')
                         <button type="submit"

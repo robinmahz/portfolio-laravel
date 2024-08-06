@@ -1,4 +1,4 @@
-<div class="zoom flex gap-6 card bg-[#{{ $what['color'] }}]">
+<div class="zoom flex flex-row gap-6 card bg-[#{{ $what['color'] }}] p-8 rounded-xl border-none ">
     <div>
         <i class="fa-solid {{ $what['icon'] }} text-4xl"></i>
     </div>
