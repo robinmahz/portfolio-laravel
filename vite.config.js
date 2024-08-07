@@ -8,5 +8,4 @@ export default defineConfig({
             refresh: true,
         }),
     ],
-    base: 'https://robinmahz.github.io/portfolio-laravel/'
 });
